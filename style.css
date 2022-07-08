@@ -1,3 +1,15 @@
-#my-article{
-    background-color: aqua;
+#my-article > article > section{
+    padding: 0 4px 0 4px;
+    border: solid black 1px;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
+
+details > summary > h4{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: square;
+}
+

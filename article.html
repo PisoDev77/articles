@@ -12,42 +12,27 @@
         <article>
 
             <section>
-                <h2>HTTP VS HTTPS</h2>
-                <div class="flexRow">
-
-                    <div class="flexCol">
-                        <h4>HTTP ( Hpyer Text Transfer Protocol</h4>
-                        <div>데이터를 요청( Request ) / 응답( Response )에 사용되는 프로토콜</div>
-                        <div>암호화 되지 않은 평문 데이터를 전송, 서버와 주고받는 데이터를 볼 수 있다.</div>
-                        <div>80포트를 사용한다.</div>
-                    </div>
-
-                    <div class="flexCol">
-                        <h4>HTTPS HTTP + SSL ( Secure Socket Layer )</h4>
-                        <div>데이터를 요청( Request ) / 응답( Response )에 사용되는 프로토콜</div>
-                        <div>암호화 된 데이터를 전송, 제 3자가 데이터를 볼 수 없다.</div>
-                        <div>443포트를 사용한다.</div>
-                        <ol>
-                            <h4>HTTPS의 암호화 방식</h4>
-                            <li>대칭키 암호화<br> 클라이언트와 서버가 동일한 키를 사용하여 암호화 / 복호화 과정을 진행한다.<BR>
-                            키 노출 위험성이 큰 대신 속도가 빠르다.</li>
-                            <li>비대칭키 암호화<br> 공개키와 개인키를 사용하여 암호화 / 복호화 과정을 진행한다.<BR>
-                            키가 노출되어도 비교적 안전하다, 대신 속도가 느리다.</li>
-                        </ol>
-                    </div>
-
-                </div>
+                <h2>DNS ( Domain Naming Server )란?</h2>
+                <div>IP 주소 숫자 데이터를 사람이 읽을 수 있는 주소로 변환하는 역할을 함.</div>
             </section>
 
             <section>
-                <H2>RESTful API</H2>
-                <ul>
-                    <li>REST의 규칙을 지켜서 만든 API ( 소프트웨어 프로그램 아키텍처의 한 형태 )</li>
-                    <li>성능의 향상보다는 규칙을 통한 API이해도와 호환성을 높인다.(유집수 및 코드재사용성 향상)</li>
-                </ul>
-                <img src="https://pisodev77.github.io/articles/imgs/RESTful%20API.png" />
+                <h2>패킷 ( packet )이란?</h2>
+                <div>패키지(package)와 버킷(bucket)의 합성어로 데이터의 전송단위를 뜻한다. ; 네트워크를 통한 정보전송의 기본 단위</div>
             </section>
 
+            <section>
+                <h4>쿠키(Cookie)란?</h4>
+                <div>브라우저 로컬에 저장되는 key-value 형태의 데이터 파일</div>
+                <h4>세션(Session)란?</h4>
+                <div>브라우저 로컬에 저장되는 key-value 형태의 데이터 파일</div>
+                <ul>
+                    <h4>Cookie VS Session</h4>
+                    <li>저장위치<hr>쿠키는 로컬에 저장, 세션은 로컬과 서버에 저장</li>
+                    <li>생명주기<hr>쿠키는 브라우저를 종료해도 파일로 남아있지만, 세션은 브라우저 종료시 삭제된다.</li>
+                    <li>속도<hr>쿠키는 파일에서 읽기 때문에 상대적으로 빠르다, 세션은 요청마다 서버에서 처리해야 하기에 비교적 느리다.</li>
+                </ul>
+            </section>
 
         </article>
     </main>

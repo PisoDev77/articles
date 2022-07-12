@@ -5,11 +5,11 @@
     border-radius: 15px;
 }
 
-details > summary > h4{
+#my-article > details > summary > h4{
     display: inline-block;
 }
 
-ul{
+#my-article > ul{
     list-style-type: square;
 }
 
@@ -24,7 +24,7 @@ ul{
     justify-content: space-around;
 }
 
-img{
-    width: 100%;
+#my-article > img{
+    width: inherit;
 }
 

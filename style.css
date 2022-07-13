@@ -28,3 +28,9 @@
     width: inherit;
 }
 
+#my-article > .reference{
+    color: darkslategray;
+    border: solid darkslategray 1px;
+    padding: 5px;
+}
+

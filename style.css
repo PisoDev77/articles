@@ -29,10 +29,14 @@
 }
 
 #my-article > article > section .reference{
-    color: darkslategray;
-    border: solid darkslategray 1px;
+    color: grey;
+    border: solid grey 1px;
     padding: 5px;
     margin: 10px;
     border-radius: 15px;
+    font-size: small;
+}
+#my-article > article > section .reference::before{
+    content: "※";
 }
 

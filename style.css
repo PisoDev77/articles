@@ -28,9 +28,11 @@
     width: inherit;
 }
 
-#my-article > .reference{
+#my-article > article > section .reference{
     color: darkslategray;
     border: solid darkslategray 1px;
     padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
